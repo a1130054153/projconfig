@@ -14,7 +14,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     metadata-map:
-      key01: '${cipher}0c46d163a27781944f86487ac29ff7bf1ccf186a216f6e3d5750ed1fc48a773d' #加密字符串加'{cipher}' 例如：'{cipher}加密串'
+      key01: '{cipher}0c46d163a27781944f86487ac29ff7bf1ccf186a216f6e3d5750ed1fc48a773d' #加密字符串加'{cipher}' 例如：'{cipher}加密串'
     prefer-ip-address: true
 
 feign:
